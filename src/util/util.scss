@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  -webkit-overflow-scrolling: none;
+}
+
+a {
+  text-decoration: none;
+}
