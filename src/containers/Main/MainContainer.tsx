@@ -1,4 +1,4 @@
-import { inject, observer } from "mobx-react";
+import { observer } from "mobx-react";
 import React from "react";
 import Main from "../../components/Main";
 
@@ -10,4 +10,4 @@ const MainContainer = () => {
   );
 };
 
-export default inject("store")(observer(MainContainer));
+export default observer(MainContainer);

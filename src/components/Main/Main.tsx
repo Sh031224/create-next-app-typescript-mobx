@@ -1,14 +1,12 @@
 import React from "react";
 import "./Main.scss";
 
-interface MainProps {
-
-}
+interface MainProps {}
 
 const Main = ({}: MainProps) => {
   return (
     <>
-      <div></div>
+      <h1>Hi</h1>
     </>
   );
 };
